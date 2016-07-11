@@ -4,4 +4,4 @@
 
 IIFO's dotfiles
 
-NOTE: After the last update, i3-gaps is required.
+NOTE: After the last update, [i3-gaps](https://github.com/Airblader/i3) is required.

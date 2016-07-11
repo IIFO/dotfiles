@@ -172,10 +172,10 @@ client.unfocused        #383838 #383838 #b8b8b8 #383838   #383838
 client.urgent           #dc9656 #dc9656 #f8f8f8 #dc9656   #900000
 
 
-# The windows doesn't have titlebar
-new_window pixel 2
+# Width of the window border. Also removes the title.
+new_window pixel 4	 
 
 # Start nitrogen to show the wallpaper
 exec --no-startup-id nitrogen --restore
 
-gaps inner 9
+gaps inner 11	
