@@ -1,6 +1,6 @@
 # dotfiles
 
-![](https://i.imgur.com/iDtnsUq.png)
+![](2016-07-28-153701_1599x899_scrot.png)
 
 IIFO's dotfiles
 
