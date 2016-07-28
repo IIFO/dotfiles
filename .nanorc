@@ -54,8 +54,8 @@ set smooth
 set autoindent
 
 ## Backup
-set backup
-set backupdir ~/Documentos/nano-backups
+## set backup
+## set backupdir ~/Documentos/nano-backups
 
 ## Hide Help from Bottom
 set nohelp
