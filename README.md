@@ -2,7 +2,7 @@
 
 IIFO's dotfiles
 
-Required applications
+**Required applications**
 
  - [i3-gaps](https://github.com/Airblader/i3)
  - [screenfetch](https://github.com/KittyKatt/screenFetch)
@@ -10,7 +10,7 @@ Required applications
  - [urxvt](http://software.schmorp.de/pkg/rxvt-unicode) (currently broken)
  - dmenu
 
-Colorscheme: [Tomorrow](https://chriskempson.github.io/base16/#tomorrow)
+**Colorscheme:** [Tomorrow](https://chriskempson.github.io/base16/#tomorrow)
  
 ![](2016-07-28-153701_1599x899_scrot.png)
 
