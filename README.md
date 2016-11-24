@@ -2,7 +2,7 @@
 
 IIFO's dotfiles
 
-**Required applications**
+**Required software**
 
  - [i3-gaps](https://github.com/Airblader/i3)
  - [screenfetch](https://github.com/KittyKatt/screenFetch)
