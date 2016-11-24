@@ -18,10 +18,7 @@ export PS1="[\w]\[$(tput sgr0)\] "
 #fi
 
 # Display a cool ascii art and some specs
-echo
-screenfetch
-echo
-
+neofetch --image 'ascii'
 # Display date on startup
 #date
 
