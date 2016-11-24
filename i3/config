@@ -146,26 +146,29 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#	position top
-#	status_command i3status
-#	tray_output none
-#	colors {
-#		background #181818
-#		statusline #d8d8d8
-#		separator #666666
-#
-#		# class            border  backgr. text
-#		focused_workspace  #181818 #181818 #f8f8f8
-#		active_workspace   #181818 #181818 #585858
-#		inactive_workspace #181818 #181818 #585858
-#		urgent_workspace   #181818 #181818 #ffffff
-#
-#	}	
-#}
+bar {
+	position top
+	status_command i3status
+	tray_output none
+	mode hide
+	modifier Mod1
+	
+	colors {
+		background #1d1f21
+		statusline #d8d8d8
+		separator #1d1f21
+
+		# class            border  backgr. text
+		focused_workspace  #1d1f21 #1d1f21 #e0e0e0
+		active_workspace   #1d1f21 #1d1f21 #b4b7b4
+		inactive_workspace #1d1f21 #1d1f21 #b4b7b4
+		urgent_workspace   #1d1f21 #1d1f21 #de935f
+
+	}	
+}
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #81a2be #81a2be #e0e0e0 #81a2be   #81a2be
+client.focused          #cc6666 #cc6666 #373b41 #cc6666   #cc6666
 client.focused_inactive #373b41 #373b41 #e0e0e0 #373b41   #373b41
 client.unfocused        #373b41 #373b41 #e0e0e0 #373b41   #373b41
 client.urgent           #de935f #de935f #e0e0e0 #de935f   #de935f
@@ -177,5 +180,7 @@ new_window pixel 3
 # Start nitrogen to show the wallpaper
 exec --no-startup-id nitrogen --restore
 
-gaps inner 10	
-gaps outer 30
+gaps inner 6	
+gaps outer 15
+
+
