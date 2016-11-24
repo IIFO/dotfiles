@@ -1,11 +1,11 @@
 "vim.wikia.com/wiki/Example_vimrc
 
-colorscheme default
+colorscheme Tomorrow-Night-Eighties
 
 set nocompatible
 filetype indent plugin on
 syntax on
-set t_Co=16
+set t_Co=256
 
 set wildmenu
 set showcmd
@@ -18,7 +18,7 @@ set laststatus=2
 set confirm
 set visualbell
 set cmdheight=2
-set number
+" set number
 
 " set shiftwidth=2
 " set softtabstop=2
